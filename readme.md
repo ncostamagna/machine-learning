@@ -1,4 +1,20 @@
 # Indice
+- [Funcion de Costo](#funcion-de-costo)
+  * [L2-Norm](#l2-norm)
+  * [Cross Entropy](#cross-entropy)
+- [Gradiante Descendente](#gradiante-descendente)
+- [Regresin Lineal](#regresin-lineal)
+- [SVM](#svm)
+- [Random Forest](#random-forest)
+- [Deep Learning y Redes Neuronales](#deep-learning-y-redes-neuronales)
+- [Funcion de Activacion](#funcion-de-activacion)
+  * [Umbral](#umbral)
+  * [Sigmoude](#sigmoude)
+  * [Rectificador Unitario](#rectificador-unitario)
+  * [Tangente HIperbolica](#tangente-hiperbolica)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 # Funcion de Costo
 
