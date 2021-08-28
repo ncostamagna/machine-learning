@@ -16,3 +16,22 @@
 # SVM
 
 # Random Forest
+
+# Deep Learning y Redes Neuronales
+
+
+# Funcion de Activacion
+
+## Umbral
+<img src="images/3.png" />
+
+## Sigmoude 
+<img src="images/4.png" />
+
+## Rectificador Unitario
+Transforma todo lo negativo a cero <br />
+<img src="images/5.png" />
+
+## Tangente HIperbolica
+<img src="images/6.png" />
+
