@@ -25,7 +25,13 @@
 <img src="images/2.png"><br />
 
 # Gradiante Descendente
+se necesita derivar para saber que inclunacion tiene la pendiente, tenemos que tratarr de llegar al punto minimo.
 
+## Gradiante Descendente Estocastico
+Se le da un poco de aleatoriedad para mejorar la optimizacion. Tiende a buscar el minimo global
+
+# Backpropagatation
+Propagacion hacia atras, vuelve hacia atras en las redes neuronales para correr nuevamente con los nuevos pesos
 
 # Regresin Lineal
 
@@ -41,13 +47,14 @@
 ## Umbral
 <img src="images/3.png" />
 
-## Sigmoude 
+## Sigmoid 
 <img src="images/4.png" />
 
-## Rectificador Unitario
+## ReLU (Rectificador Unitario)
 Transforma todo lo negativo a cero <br />
 <img src="images/5.png" />
 
-## Tangente HIperbolica
+## Hyper Tangent
+Tangente HIperbolica <br />
 <img src="images/6.png" />
 
