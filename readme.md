@@ -15,6 +15,7 @@
   * [ReLU (Rectificador Unitario)](#relu--rectificador-unitario-)
   * [Hyper Tangent](#hyper-tangent)
 - [Redes Neuronales Artificiales](#redes-neuronales-artificiales)
+- [Redes Neuronales Convolucionales](#redes-neuronales-convolucionales)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -131,3 +132,25 @@ mean = accuracies.mean()
 variance = accuracies.std()
 
 ```
+
+# Recurrent Neural Network
+Aprendizaje Supervisado<br />
+Se utiliza mucho paara speech, traduccion del lenguaje, para descubrir el contenido de una imagen<br />
+Poder entender una secuencia, si digo 'I am a boutiful boy' entender como hacer la traduccion en secuencia (NO PALABRA POR PALABRA), si yo cambio una sola palabra 'I am a boutiful girl', cambian otras palabras en otros idiomas <br />
+Podemos devolver una respuesta, o volver otra vez al nodo azul<br />
+<img src="images/7.png" /><br /><br /><br />
+En este caso, en el ultimo step vamos a tener todas las palabras de los anteriores steps<br />
+<img src="images/8.png" /><br />
+
+## Ejemplos
+Nos puede devolver muchos detalles de una imagen<br />
+<img src="images/9.png" /><br /><br />
+
+Analisis de sentimientos, en base a un mensaje vemos el sentimiento de la persona<br />
+<img src="images/10.png" /><br /><br />
+
+Traduccion, no analiza palabras sueltas, traduccion en conjunto<br />
+<img src="images/11.png" /><br /><br />
+
+Traduccion, o subtitulos a las peliculas<br />
+<img src="images/12.png" /><br /><br />
