@@ -136,7 +136,7 @@ variance = accuracies.std()
 # Recurrent Neural Network
 Aprendizaje Supervisado<br />
 Se utiliza mucho paara speech, traduccion del lenguaje, para descubrir el contenido de una imagen<br />
-Poder entender una secuencia, si digo 'I am a boutiful boy' entender como hacer la traduccion en secuencia (NO PALABRA POR PALABRA), si yo cambio una sola palabra 'I am a boutiful girl', cambian otras palabras en otros idiomas <br />
+Poder entender una secuencia, si digo 'I am a beautiful boy' entender como hacer la traduccion en secuencia (NO PALABRA POR PALABRA), si yo cambio una sola palabra 'I am a bautiful girl', cambian otras palabras en otros idiomas <br />
 Podemos devolver una respuesta, o volver otra vez al nodo azul<br />
 <img src="images/7.png" /><br /><br /><br />
 En este caso, en el ultimo step vamos a tener todas las palabras de los anteriores steps<br />
@@ -154,3 +154,21 @@ Traduccion, no analiza palabras sueltas, traduccion en conjunto<br />
 
 Traduccion, o subtitulos a las peliculas<br />
 <img src="images/12.png" /><br /><br />
+
+## Vanishing Gradient
+Cuando propagamos un error hacia atras tenemos que mandarlo a todas las otras faces<br />
+Si vamos multiplicando los valores del gradiante descendente para abajo vamos a seguir teniendo valores mas pequeños, tendiendo a cero, se va desvaneciendo<br />
+<img src="images/13.png" /><br />
+
+### Soluciones
+- Exploding Gradient: propagacion hacia atras que se vaya truncando
+- Vashing Gradient: corregir incializacion pesos, redes echo state, **LSTM** (Redes neuronales con corto plazo de memoria)
+
+
+## LSTM (Long-Short Term Memory)
+Memoria a corto plazo, la siguiente imagen es lo que sucede en cada nodo de la capa oculta<br />
+<img src="images/14.png" /><br />
+la **C** representa la memoria (fase memoria)<br />
+la **h** representa los vaores de entrada y salida de la nn (fase prediccion)<br />
+Van a ser todos vectores, por haber aplanado la nn<br />
+<img src="images/15.png" /><br />
