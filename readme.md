@@ -44,6 +44,14 @@ Propagacion hacia atras, vuelve hacia atras en las redes neuronales para correr 
 
 # Deep Learning y Redes Neuronales
 
+# sklern
+
+Normalizacion de datos, el valor mas pequeño lo transformamos en 0 y el mas grande en 1
+```py
+from sklearn.preprocessing import MinMaxScaler
+sc = MinMaxScaler(feature_range = (0, 1))
+training_set_scaled = sc.fit_transform(training_set)
+```
 
 # Funcion de Activacion
 
